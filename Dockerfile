@@ -1,20 +1,20 @@
-# Paso 1: Usar una imagen oficial de Python como imagen base.
-# Se elige una versión 'slim' porque es más ligera que la completa.
+# Step 1: Use an official Python image as a base image.
+# A 'slim' version is chosen because it's lighter than the full one.
 FROM python:3.11-slim
 
-# Paso 2: Establecer el directorio de trabajo dentro del contenedor.
-# Todas las acciones posteriores (copiar, ejecutar) se harán relativas a esta ruta.
+# Step 2: Set the working directory inside the container.
+# All subsequent actions (copying, running) will be relative to this path.
 WORKDIR /app
 
-# Paso 3: Instalar la dependencia de pytest.
-# Para simplificar, en lugar de un fichero requirements.txt, la instalamos directamente.
+# Step 3: Install the pytest dependency.
+# To simplify, we install it directly instead of using a requirements.txt file.
 RUN python3 -m pip install --no-cache-dir pytest
 
-# Paso 4: Copiar los ficheros del proyecto al directorio de trabajo.
-# Se copia el script de test y la carpeta de datos.
+# Step 4: Copy the project files to the working directory.
+# The test script and the data folder are copied.
 COPY test_data_validation.py .
 COPY data/ ./data/
 
-# Paso 5: Definir el comando que se ejecutará cuando el contenedor se inicie.
-# Este es el comando que nos pediste para ejecutar los tests.
+# Step 5: Define the command that will run when the container starts.
+# This is the command you requested to run the tests.
 CMD ["python3", "-m", "pytest", "-v"]
