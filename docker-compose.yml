@@ -1,0 +1,19 @@
+
+# docker-compose.yml
+
+# Define la versión del formato del fichero docker-compose. 
+# Aunque es opcional en versiones recientes, es una buena práctica incluirlo.
+version: '3.8'
+
+# Define los servicios que compondrán tu aplicación. En nuestro caso, solo uno.
+services:
+  # Nombre de nuestro servicio de validación.
+  rt-stream-validator:
+    # Nombre que le daremos a la imagen que se construirá.
+    image: pytest-validation-service
+    # Instrucciones para construir la imagen.
+    build:
+      # El contexto de construcción es el directorio actual ('.'), donde se encuentra el Dockerfile.
+      context: .
+      # Especifica el nombre del Dockerfile a usar.
+      dockerfile: Dockerfile
