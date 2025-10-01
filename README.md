@@ -1,35 +1,61 @@
+# Run the validation service with docker-compose
 
-# Solución de Validación de Datos con Pytest
+Follow these steps to build and run the validation service using Docker Compose. This will build the image defined by the `Dockerfile` and run the test suite inside a container.
 
-## Descripción General
+1. Build and start the service with Docker Compose:
 
-Esta solución utiliza Python y el framework de testing `pytest` para realizar una serie de validaciones sobre un fichero de datos (`data/rt-feed-record`) que contiene registros en formato JSON-line.
+```bash
+docker-compose up --build
+```
 
-El objetivo es asegurar la integridad, completitud y formato correcto de los datos recibidos en tiempo real.
+2. The service runs `pytest -v` inside the container and prints test results to the container logs. To stop the service, press Ctrl+C or run:
 
-## Proceso de Validación
+```bash
+docker-compose down
+```
 
-El script `test_data_validation.py` implementa tres tests independientes:
+---
 
-### 1. Conteo de Documentos Únicos (`test_count_unique_documents`)
+# Data Validation Solution (pytest)
 
-- **Propósito**: Verificar el número total de documentos distintos en el fichero de datos.
-- **Proceso**: El test lee el fichero línea por línea, extrae el campo `RP_DOCUMENT_ID` de cada registro JSON y lo añade a un `set` para garantizar la unicidad. Finalmente, verifica que el número total de IDs únicos sea mayor que cero y reporta la cantidad encontrada.
+## Overview
 
-### 2. Verificación de Analíticas Incompletas (`test_find_documents_with_missing_analytics`)
+This solution uses Python and the `pytest` testing framework to perform a set of validations against a dataset located at `data/rt-feed-record`, which contains newline-delimited JSON (NDJSON) records.
 
-- **Propósito**: Detectar si a algún documento le faltan partes (analíticas).
-- **Proceso**: Agrupa todos los registros por su `RP_DOCUMENT_ID`. Para cada documento, compara el número de analíticas que se esperaban (según el campo `DOCUMENT_RECORD_COUNT`) con las que realmente se han encontrado (contando los `DOCUMENT_RECORD_INDEX` únicos). Si no coinciden, el test falla y reporta exactamente qué documentos están incompletos y qué índices de analíticas faltan.
+The goal is to ensure integrity, completeness, and correct formatting of streaming analytics data.
 
-### 3. Validación de Formato de ID de Entidad (`test_rp_entity_id_format`)
+## Validation Tests
 
-- **Propósito**: Asegurar que el campo `RP_ENTITY_ID` cumple con el formato esperado.
-- **Proceso**: Basado en un análisis previo de los datos, se determinó que el formato correcto es una cadena alfanumérica de 6 caracteres en mayúsculas. Este test utiliza una expresión regular (`^[A-Z0-9]{6}$`) para validar cada `RP_ENTITY_ID` en el fichero. Si algún ID no cumple con este formato, el test falla y reporta el valor incorrecto y el número de línea donde fue encontrado.
+The repository provides a single test file: `test_data_validation.py`, which implements three independent tests:
 
-## Cómo Ejecutar los Tests
+### 1. Unique Document Count (`test_count_unique_documents`)
 
-Para ejecutar la suite de validación, sitúese en el directorio raíz del proyecto y ejecute el siguiente comando:
+- Purpose: Verify the total number of distinct documents in the data file.
+- Process: The test reads the file line by line, extracts `RP_DOCUMENT_ID` from each JSON record and adds it to a `set` to ensure uniqueness. Finally, it asserts that the number of unique IDs is greater than zero and reports the count found.
+
+### 2. Incomplete Analytics Detection (`test_find_documents_with_missing_analytics`)
+
+- Purpose: Detect documents that have missing analytics parts.
+- Process: The test groups records by `RP_DOCUMENT_ID`. For each document it compares the expected number of analytics (from the `DOCUMENT_RECORD_COUNT` field) with the actual ones found (by counting unique `DOCUMENT_RECORD_INDEX` values). If they don't match, the test fails and reports which documents are incomplete and which analytic indexes are missing.
+
+### 3. RP_ENTITY_ID Format Validation (`test_rp_entity_id_format`)
+
+- Purpose: Ensure the `RP_ENTITY_ID` field matches the expected format.
+- Process: Based on prior analysis of the data, the expected format is a 6-character uppercase alphanumeric string. The test uses a regular expression (`^[A-Z0-9]{6}$`) to validate each `RP_ENTITY_ID` in the file. Any ID that doesn't match causes the test to fail and reports the invalid value and its line number.
+
+## How to run the tests locally
+
+From the project root directory, run:
 
 ```bash
 python3 -m pytest -v
 ```
+
+## Notes
+
+- The repository contains a `Dockerfile` that installs `pytest` and copies the test and data into the container. The container runs the tests by default.
+- The provided `docker-compose.yml` defines a single service named `rt-stream-validator` which builds the image using the included `Dockerfile`.
+
+---
+
+If you want, I can also run the tests inside the workspace and report the results, or help troubleshoot any failing tests.
