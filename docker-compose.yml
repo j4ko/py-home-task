@@ -1,10 +1,6 @@
 
 # docker-compose.yml
 
-# Define la versión del formato del fichero docker-compose. 
-# Aunque es opcional en versiones recientes, es una buena práctica incluirlo.
-version: '3.8'
-
 # Define los servicios que compondrán tu aplicación. En nuestro caso, solo uno.
 services:
   # Nombre de nuestro servicio de validación.
