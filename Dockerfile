@@ -17,4 +17,4 @@ COPY data/ ./data/
 
 # Step 5: Define the command that will run when the container starts.
 # This is the command you requested to run the tests.
-CMD ["python3", "-m", "pytest", "-v"]
+CMD ["python3", "-m", "pytest", "-v", "--color=yes"]
