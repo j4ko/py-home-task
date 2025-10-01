@@ -1,0 +1,79 @@
+=== ANÁLISIS DETALLADO DEL FORMATO RP_ENTITY_ID ===
+
+Total de IDs analizados: 8,451
+Caracteres únicos encontrados: 36
+Caracteres: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+=== VERIFICACIÓN DE FORMATO ===
+¿Es hexadecimal puro? False
+Caracteres hexadecimales válidos: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+Caracteres NO hexadecimales: ['G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+Cantidad de caracteres extra: 20
+
+=== EJEMPLOS DE IDs NO-HEXADECIMALES ===
+ 1. KOXQBB -> Ilir Sela
+    Caracteres problemáticos: ['K', 'O', 'X', 'Q']
+ 2. O7X7DP -> Tribune Content Agency LLC
+    Caracteres problemáticos: ['O', 'X', 'P']
+ 3. CHJ6AM -> Business Wire Inc.
+    Caracteres problemáticos: ['H', 'J', 'M']
+ 4. 9OPHEQ -> Armaments Research Co. Inc.
+    Caracteres problemáticos: ['O', 'P', 'H', 'Q']
+ 5. 1XLH7I -> Pottery Barn Inc.
+    Caracteres problemáticos: ['X', 'L', 'H', 'I']
+ 6. OM1LB3 -> West Elm Inc.
+    Caracteres problemáticos: ['O', 'M', 'L']
+ 7. F4FX4A -> James Gamble
+    Caracteres problemáticos: ['X']
+ 8. 74JRNN -> AdStyle Inc.
+    Caracteres problemáticos: ['J', 'R', 'N', 'N']
+ 9. O7X7DP -> Tribune Content Agency LLC
+    Caracteres problemáticos: ['O', 'X', 'P']
+10. 2OHGCK -> Yossi Aloni
+    Caracteres problemáticos: ['O', 'H', 'G', 'K']
+... y 197 más
+
+=== SISTEMA DE NUMERACIÓN DETECTADO ===
+Caracteres únicos detectados: 36
+Sistema probable: Alfanumérico completo (0-9, A-Z)
+
+=== DISTRIBUCIÓN DE CARACTERES ===
+Los 10 caracteres más frecuentes:
+  6: 3,472 veces (6.85%)
+  F: 3,354 veces (6.61%)
+  E: 3,345 veces (6.60%)
+  2: 3,304 veces (6.52%)
+  3: 3,282 veces (6.47%)
+  7: 3,187 veces (6.29%)
+  5: 3,127 veces (6.17%)
+  1: 3,100 veces (6.11%)
+  9: 3,071 veces (6.06%)
+  C: 3,048 veces (6.01%)
+
+=== ANÁLISIS POR POSICIÓN ===
+Posición 1: 31 caracteres únicos
+  Más comunes: 2(617), 5(602), 3(597)
+Posición 2: 36 caracteres únicos
+  Más comunes: 6(699), E(653), 7(632)
+Posición 3: 36 caracteres únicos
+  Más comunes: 3(724), F(672), E(582)
+Posición 4: 36 caracteres únicos
+  Más comunes: 5(677), 1(640), 6(605)
+Posición 5: 36 caracteres únicos
+  Más comunes: 2(659), 6(658), 5(626)
+Posición 6: 36 caracteres únicos
+  Más comunes: 7(701), F(617), A(603)
+
+=== PATRONES DETECTADOS ===
+IDs con patrones secuenciales (en muestra de 100): 4
+Primeros caracteres más comunes:
+  2: 617 IDs (7.30%)
+  5: 602 IDs (7.12%)
+  3: 597 IDs (7.06%)
+  E: 591 IDs (6.99%)
+  8: 582 IDs (6.89%)
+  9: 560 IDs (6.63%)
+  F: 553 IDs (6.54%)
+  0: 509 IDs (6.02%)
+  7: 505 IDs (5.98%)
+  C: 503 IDs (5.95%)

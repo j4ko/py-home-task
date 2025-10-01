@@ -1,0 +1,429 @@
+=== ANÁLISIS DE ESTRUCTURA DE DATOS ===
+
+Total de registros: 8,451
+Total de campos: 82
+
+=== CAMPOS Y TIPOS DE DATOS ===
+
+Campo: ANALYST_RATINGS_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: BYTE_COUNT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [8937, 8937, 8937]
+
+Campo: CATEGORY
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ['product-discontinued-product', 'product-discontinued', 'unemployment']
+
+Campo: COMMENTARY_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: COMPOSITE_SENTIMENT_SCORE
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.0, 0.0, 0.0]
+
+Campo: CORPORATE_ACTIONS_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: COUNTRY_CODE
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['XX', 'XX', 'US']
+
+Campo: CREDIT_SENTIMENT
+  Tipos: float, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [0.0, -0.35, 0.0]
+
+Campo: DOCUMENT_RECORD_COUNT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [38, 38, 38]
+
+Campo: DOCUMENT_RECORD_INDEX
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [1, 2, 3]
+
+Campo: DOCUMENT_SENTIMENT
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.14, 0.14, 0.14]
+
+Campo: DOCUMENT_SENTIMENT_CONFIDENCE
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.43, 0.43, 0.43]
+
+Campo: DOCUMENT_TYPE
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['FULL-ARTICLE', 'FULL-ARTICLE', 'FULL-ARTICLE']
+
+Campo: EARNINGS_RELEASE_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: EARNINGS_TONE_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: ENTITY_DETECTION_DISTANCE
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: ENTITY_DETECTION_TYPE
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['direct', 'direct', 'direct']
+
+Campo: ENTITY_HIERARCHY_LEVEL
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [1, 1, 1]
+
+Campo: ENTITY_NAME
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['Super Bowl', 'Sport', 'State of Indiana, US']
+
+Campo: ENTITY_RELEVANCE
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [84, 81, 81]
+
+Campo: ENTITY_SENTIMENT
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.27, 0.36, 0.36]
+
+Campo: ENTITY_SENTIMENT_CONFIDENCE
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.73, 0.87, 0.87]
+
+Campo: ENTITY_TEXT_SENTIMENT
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.27, 0.36, 0.36]
+
+Campo: ENTITY_TEXT_SENT_CONFIDENCE
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0.73, 0.87, 0.87]
+
+Campo: ENTITY_TYPE
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['EVNT', 'SPOR', 'PLCE']
+
+Campo: EVALUATION_METHOD
+  Tipos: null, str
+  Valores nulos: 8,445 (99.9%)
+  Ejemplos: ['YOY', 'YOY', 'YOY']
+
+Campo: EVENT_DETECTED_ENTITY_NAME
+  Tipos: null, str
+  Valores nulos: 8,150 (96.4%)
+  Ejemplos: ['Pizza', 'MyPizza Technologies Inc.', 'State of New Jersey, US']
+
+Campo: EVENT_DETECTION_DISTANCE
+  Tipos: int, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [0, 0, 0]
+
+Campo: EVENT_END_DATE_UTC
+  Tipos: null, str
+  Valores nulos: 8,412 (99.5%)
+  Ejemplos: ['2021-12-01 00:00:00', '2022-02-09 00:00:00', '2022-05-01 00:00:00']
+
+Campo: EVENT_RELEVANCE
+  Tipos: int, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [70, 70, 40]
+
+Campo: EVENT_RISK
+  Tipos: float, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [0.51, 0.51, 0.0]
+
+Campo: EVENT_SENTIMENT
+  Tipos: float, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [-0.41, -0.41, 0.0]
+
+Campo: EVENT_SIMILARITY_DAYS
+  Tipos: float, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [0.00059, 0.00059, 0.00013]
+
+Campo: EVENT_SIMILARITY_KEY
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ['AC72988479A6CCE74A2090767B04DE44', 'AC72988479A6CCE74A2090767B04DE44', '00688537BFA3EFA585AAE785415F4D91']
+
+Campo: EVENT_START_DATE_UTC
+  Tipos: null, str
+  Valores nulos: 8,412 (99.5%)
+  Ejemplos: ['2021-11-01 00:00:00', '2022-02-08 00:00:00', '2022-04-01 00:00:00']
+
+Campo: EVENT_TEXT
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ["Slice, a digital platform that powers America's largest network of pizzerias, has dropped its annual pizza", "Slice, a digital platform that powers America's largest network of pizzerias, has dropped its annual pizza", 'Months for unemployment help as states such as New Jersey']
+
+Campo: FACT_LEVEL
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ['mention', 'mention', 'mention']
+
+Campo: GROUP
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ['products-services', 'products-services', 'employment']
+
+Campo: INTEREST_RATE_SENTIMENT
+  Tipos: float, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [0.0, 0.0, 0.0]
+
+Campo: MATURITY
+  Tipos: null
+  Valores nulos: 8,451 (100.0%)
+
+Campo: MERGERS_ACQUISITIONS_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: MULTI_STOCK_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: ORIGINAL_LANGUAGE
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['ENGLISH', 'ENGLISH', 'ENGLISH']
+
+Campo: PARAGRAPH_COUNT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [28, 28, 28]
+
+Campo: PARENT_NAME
+  Tipos: null, str
+  Valores nulos: 8,336 (98.6%)
+  Ejemplos: ['Meta Platforms Inc.', 'Tribune Publishing Co.', 'Beijing ByteDance Technology Co. Ltd.']
+
+Campo: POSITION_NAME
+  Tipos: null, str
+  Valores nulos: 8,443 (99.9%)
+  Ejemplos: ['President', 'Executive', 'Executive']
+
+Campo: PRODUCT_KEY
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['EDGE', 'EDGE', 'EDGE']
+
+Campo: PROVIDER_DOCUMENT_CHAIN_ID
+  Tipos: null, str
+  Valores nulos: 5,488 (64.9%)
+  Ejemplos: ['KRTSR00020220209ei29000p1', 'KRTSR00020220209ei29000p1', 'KRTSR00020220209ei29000p1']
+
+Campo: PROVIDER_DOCUMENT_ID
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['10:46987517075', '10:46987517075', '10:46987517075']
+
+Campo: RELATED_ENTITY_NAME
+  Tipos: null, str
+  Valores nulos: 8,428 (99.7%)
+  Ejemplos: ['State of Minnesota, US', 'Uganda', 'Samsung Electronics Co. Ltd.']
+
+Campo: RELATIONSHIP
+  Tipos: null, str
+  Valores nulos: 8,428 (99.7%)
+  Ejemplos: ['TERRITORY', 'TERRITORY', 'OWNER']
+
+Campo: REPORTING_END_DATE_UTC
+  Tipos: null, str
+  Valores nulos: 8,362 (98.9%)
+  Ejemplos: ['2022-02-01 00:00:00', '2022-01-01 00:00:00', '2024-01-01 00:00:00']
+
+Campo: REPORTING_PERIOD
+  Tipos: null, str
+  Valores nulos: 8,378 (99.1%)
+  Ejemplos: ['2021', '2023', '2023']
+
+Campo: REPORTING_START_DATE_UTC
+  Tipos: null, str
+  Valores nulos: 8,362 (98.9%)
+  Ejemplos: ['2021-11-01 00:00:00', '2021-01-01 00:00:00', '2023-01-01 00:00:00']
+
+Campo: REPORTING_TYPE
+  Tipos: null, str
+  Valores nulos: 8,439 (99.9%)
+  Ejemplos: ['reported', 'ex-exceptionals', 'ex-exceptionals']
+
+Campo: ROLE
+  Tipos: null, str
+  Valores nulos: 8,369 (99.0%)
+  Ejemplos: ['product', 'rater', 'rater']
+
+Campo: RP_DOCUMENT_ID
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['0B31D33076B73E35F140F4701F69168C', '0B31D33076B73E35F140F4701F69168C', '0B31D33076B73E35F140F4701F69168C']
+
+Campo: RP_ENTITY_ID
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['55F204', '697601', 'AF2DAC']
+
+Campo: RP_EVENT_DETECTED_ENTITY_ID
+  Tipos: null, str
+  Valores nulos: 8,150 (96.4%)
+  Ejemplos: ['8C49DD', 'A00D28', '78D638']
+
+Campo: RP_PARENT_ID
+  Tipos: null, str
+  Valores nulos: 8,336 (98.6%)
+  Ejemplos: ['12E454', '769F40', 'C1D3A6']
+
+Campo: RP_POSITION_ID
+  Tipos: null, str
+  Valores nulos: 8,443 (99.9%)
+  Ejemplos: ['518E3D', '2A6931', '2A6931']
+
+Campo: RP_PROVIDER_ID
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['MRVR', 'MRVR', 'MRVR']
+
+Campo: RP_RELATED_ENTITY_ID
+  Tipos: null, str
+  Valores nulos: 8,428 (99.7%)
+  Ejemplos: ['2F901D', 'E2687D', 'B811D5']
+
+Campo: RP_SEGMENT_ID
+  Tipos: null, str
+  Valores nulos: 8,430 (99.8%)
+  Ejemplos: ['8C49DD', '8C49DD', '8C49DD']
+
+Campo: RP_SOURCE_ID
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['2D6E8F', '2D6E8F', '2D6E8F']
+
+Campo: RP_TERRITORY_ID
+  Tipos: null
+  Valores nulos: 8,451 (100.0%)
+
+Campo: SEGMENT_NAME
+  Tipos: null, str
+  Valores nulos: 8,430 (99.8%)
+  Ejemplos: ['Pizza', 'Pizza', 'Pizza']
+
+Campo: SENTIMENT_IMPACT_PROJECTION
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [-0.2, -0.2, -0.2]
+
+Campo: SOURCE_NAME
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['North Andover Eagle-Tribune', 'North Andover Eagle-Tribune', 'North Andover Eagle-Tribune']
+
+Campo: SOURCE_RANK
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [4, 4, 4]
+
+Campo: STOCK_TONE_SENTIMENT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [0, 0, 0]
+
+Campo: SUB_TYPE
+  Tipos: null, str
+  Valores nulos: 8,338 (98.7%)
+  Ejemplos: ['negative', 'negative', 'negative']
+
+Campo: SUSTAINABILITY_SENTIMENT
+  Tipos: float, null
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: [-0.17, -0.17, 0.0]
+
+Campo: TERRITORY_NAME
+  Tipos: null
+  Valores nulos: 8,451 (100.0%)
+
+Campo: TIMESTAMP_UTC
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['2022-02-09 17:04:25.403', '2022-02-09 17:04:25.403', '2022-02-09 17:04:25.403']
+
+Campo: TITLE
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['Burrow equals passing of the torch', 'Burrow equals passing of the torch', 'Burrow equals passing of the torch']
+
+Campo: TITLE_SIMILARITY_DAYS
+  Tipos: float
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [365.0, 365.0, 365.0]
+
+Campo: TITLE_SIMILARITY_KEY
+  Tipos: str
+  Valores nulos: 0 (0.0%)
+  Ejemplos: ['5E2779179C6EA384CB77D7B78D933ACF', '5E2779179C6EA384CB77D7B78D933ACF', '5E2779179C6EA384CB77D7B78D933ACF']
+
+Campo: TOPIC
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ['business', 'business', 'economy']
+
+Campo: TYPE
+  Tipos: null, str
+  Valores nulos: 8,149 (96.4%)
+  Ejemplos: ['product-discontinued', 'product-discontinued', 'unemployment']
+
+Campo: UNIT
+  Tipos: null, str
+  Valores nulos: 8,442 (99.9%)
+  Ejemplos: ['subsidiary', 'subsidiary', 'subsidiary']
+
+Campo: WORD_COUNT
+  Tipos: int
+  Valores nulos: 0 (0.0%)
+  Ejemplos: [779, 779, 779]
+
+=== ESTADÍSTICAS ADICIONALES ===
+
+Campos con más valores nulos:
+  MATURITY: 8,451 (100.0%)
+  RP_TERRITORY_ID: 8,451 (100.0%)
+  TERRITORY_NAME: 8,451 (100.0%)
+  EVALUATION_METHOD: 8,445 (99.9%)
+  RP_POSITION_ID: 8,443 (99.9%)
+  POSITION_NAME: 8,443 (99.9%)
+  UNIT: 8,442 (99.9%)
+  REPORTING_TYPE: 8,439 (99.9%)
+  RP_SEGMENT_ID: 8,430 (99.8%)
+  SEGMENT_NAME: 8,430 (99.8%)
+
+Tipos de datos encontrados: float, int, null, str

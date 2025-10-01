@@ -1,0 +1,172 @@
+=== ANÁLISIS DETALLADO DE RP_DOCUMENT_ID ===
+
+Total de registros analizados: 8,451
+Documentos únicos: 273
+Promedio de entidades por documento: 30.96
+
+=== ANÁLISIS DEL FORMATO DE ID ===
+Longitudes de ID encontradas:
+  32 caracteres: 273 documentos
+
+IDs hexadecimales: 273/273 (100.0%)
+Caracteres únicos en IDs: 16
+Caracteres: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+
+=== DOCUMENTOS CON MÁS ENTIDADES (TOP 10) ===
+ 1. Entidades: 252 | Bunge Ltd.: Q4 2021 Earnings Call...
+     ID: D24904721404A11E68A6CEEE4AA31317
+     Fuente: Factset Transcripts
+     Palabras: 7569, Párrafos: 140
+ 2. Entidades: 222 | Q4 2021 MGIC Investment Corp Earnings Call - Final...
+     ID: 0D28DEC921AE931F162479CF99A56A54
+     Fuente: CQ FD Disclosure
+     Palabras: 7962, Párrafos: 114
+ 3. Entidades: 218 | Q4 2021 SunCoke Energy Inc Earnings Call - Final...
+     ID: 10A8A754FB7001AC137C0B9CBF4B077F
+     Fuente: CQ FD Disclosure
+     Palabras: 6152, Párrafos: 100
+ 4. Entidades: 192 | Half Year 2017 Italgas SpA Earnings Call - Final...
+     ID: F9EE5392FB894DE5B5B81B5BFB3BDA72
+     Fuente: CQ FD Disclosure
+     Palabras: 7026, Párrafos: 99
+ 5. Entidades: 128 | Global Equities Roundup: Market Talk...
+     ID: 283F39D7A4C6D8D4D2075D1E850990C8
+     Fuente: Dow Jones Newswires
+     Palabras: 1402, Párrafos: 15
+ 6. Entidades: 114 | Faxes and snail mail: Will pandemic-era flaws unleash improv...
+     ID: 6EFFE9546EF007D4C23659D0D7DE3CF8
+     Fuente: Bradenton Herald
+     Palabras: 1347, Párrafos: 27
+ 7. Entidades: 114 | Faxes and snail mail: Will pandemic-era flaws unleash improv...
+     ID: 33946BFEDED4D50EAF664412E80BEB29
+     Fuente: Island Packet
+     Palabras: 1347, Párrafos: 27
+ 8. Entidades: 109 | Olipudase alfa shown to provide sustained improvement across...
+     ID: 76B77E388D94467585F738E055AB717E
+     Fuente: Yahoo! Finance
+     Palabras: 2217, Párrafos: 45
+ 9. Entidades: 108 | LECTRA: 2021- very strong increase in revenues and earnings ...
+     ID: 519CF38317B8CAF1BED7CDFD51E7D55C
+     Fuente: GlobeNewswire (Online)
+     Palabras: 1787, Párrafos: 67
+10. Entidades: 100 | Counting the Ways Inflation Is Rippling Through Car Insuranc...
+     ID: 5D8867E4E9E01767493C2F18CADC7E26
+     Fuente: Dow Jones Newswires
+     Palabras: 1330, Párrafos: 14
+
+=== TIPOS DE DOCUMENTOS ===
+FULL-ARTICLE: 228 documentos (83.5%)
+PRESS-RELEASE: 24 documentos (8.8%)
+NEWS-FLASH: 18 documentos (6.6%)
+TABULAR-MATERIAL: 2 documentos (0.7%)
+TRANSCRIPT-CORRECTED: 1 documentos (0.4%)
+
+=== IDIOMAS DE DOCUMENTOS ===
+ENGLISH: 237 documentos (86.8%)
+SPANISH: 11 documentos (4.0%)
+ITALIAN: 8 documentos (2.9%)
+PORTUGUESE: 6 documentos (2.2%)
+GERMAN: 4 documentos (1.5%)
+CHINESE-TRADITIONAL: 4 documentos (1.5%)
+RUSSIAN: 2 documentos (0.7%)
+KOREAN: 1 documentos (0.4%)
+
+=== PRINCIPALES FUENTES (TOP 10) ===
+StreetInsider.com: 18 documentos (6.6%)
+ThisisInsider: 10 documentos (3.7%)
+The National Center for Biotechnology Information (NCBI): 10 documentos (3.7%)
+International Center for Trade and Sustainable Development (ICTSD): 9 documentos (3.3%)
+MarketScreener Via MoreOver: 9 documentos (3.3%)
+The Columbus Dispatch: 9 documentos (3.3%)
+GlobeNewswire (Online): 9 documentos (3.3%)
+CE NoticiasFinancieras: 7 documentos (2.6%)
+Acrofan Via MoreOver: 6 documentos (2.2%)
+Dow Jones Newswires: 6 documentos (2.2%)
+
+=== DISTRIBUCIÓN DE ENTIDADES POR DOCUMENTO ===
+Número de entidades | Documentos
+              1 |   4 documentos (1.5%)
+              2 |   7 documentos (2.6%)
+              3 |  12 documentos (4.4%)
+              4 |   6 documentos (2.2%)
+              5 |   1 documentos (0.4%)
+              6 |   5 documentos (1.8%)
+              7 |   2 documentos (0.7%)
+              8 |   4 documentos (1.5%)
+              9 |   9 documentos (3.3%)
+             10 |   5 documentos (1.8%)
+             11 |   5 documentos (1.8%)
+             12 |   4 documentos (1.5%)
+             13 |   3 documentos (1.1%)
+             14 |   4 documentos (1.5%)
+             15 |   3 documentos (1.1%)
+             16 |  10 documentos (3.7%)
+             17 |   6 documentos (2.2%)
+             18 |   6 documentos (2.2%)
+             19 |   9 documentos (3.3%)
+             20 |   8 documentos (2.9%)
+             21 |   8 documentos (2.9%)
+             22 |   8 documentos (2.9%)
+             23 |   8 documentos (2.9%)
+             24 |   6 documentos (2.2%)
+             25 |   1 documentos (0.4%)
+             26 |  11 documentos (4.0%)
+             27 |   5 documentos (1.8%)
+             28 |   6 documentos (2.2%)
+             29 |   4 documentos (1.5%)
+             30 |   4 documentos (1.5%)
+             31 |   5 documentos (1.8%)
+             32 |   4 documentos (1.5%)
+             33 |   8 documentos (2.9%)
+             34 |   2 documentos (0.7%)
+             35 |   8 documentos (2.9%)
+             36 |   2 documentos (0.7%)
+             37 |   1 documentos (0.4%)
+             38 |   1 documentos (0.4%)
+             40 |   5 documentos (1.8%)
+             41 |   5 documentos (1.8%)
+             42 |   2 documentos (0.7%)
+             43 |   4 documentos (1.5%)
+             44 |   2 documentos (0.7%)
+             45 |   2 documentos (0.7%)
+             46 |   1 documentos (0.4%)
+             47 |   2 documentos (0.7%)
+             48 |   2 documentos (0.7%)
+             49 |   2 documentos (0.7%)
+             50 |   1 documentos (0.4%)
+             51 |   2 documentos (0.7%)
+             52 |   2 documentos (0.7%)
+             54 |   3 documentos (1.1%)
+             55 |   3 documentos (1.1%)
+             59 |   4 documentos (1.5%)
+             60 |   1 documentos (0.4%)
+             61 |   2 documentos (0.7%)
+             62 |   1 documentos (0.4%)
+             64 |   2 documentos (0.7%)
+             66 |   1 documentos (0.4%)
+             68 |   2 documentos (0.7%)
+             70 |   2 documentos (0.7%)
+             75 |   2 documentos (0.7%)
+             78 |   1 documentos (0.4%)
+             81 |   2 documentos (0.7%)
+            100 |   1 documentos (0.4%)
+            108 |   1 documentos (0.4%)
+            109 |   1 documentos (0.4%)
+            114 |   2 documentos (0.7%)
+            128 |   1 documentos (0.4%)
+            192 |   1 documentos (0.4%)
+            218 |   1 documentos (0.4%)
+            222 |   1 documentos (0.4%)
+            252 |   1 documentos (0.4%)
+
+=== EJEMPLOS DE DOCUMENTOS REPRESENTATIVOS ===
+📊 DOCUMENTO CON MÁS ENTIDADES:
+ID: D24904721404A11E68A6CEEE4AA31317
+Título: Bunge Ltd.: Q4 2021 Earnings Call
+Entidades: 252
+Tipos de entidades: BUSI, CEPT, CMDT, COLR, COMP, CURR, ECON, ELEM, EMOT, EVNT, FCTY, FINC, MDCO, NATL, ORGA, PEOP, PHYS, PLCE, PLNT, PLTC, PRDT, SCIE, SCTY, SESO, SOCI, SPOR, SUST, TECH, WTHR
+
+📄 DOCUMENTO CON MENOS ENTIDADES:
+ID: DB200904698D71B95566ED2A5FBB83AB
+Título: Sixers had trade talks with Nets about Ben Simmons-James Harden, but bickered over a deal
+Entidades: 1

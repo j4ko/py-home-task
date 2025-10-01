@@ -1,0 +1,397 @@
+=== ANÁLISIS DETALLADO DE RP_ENTITY_ID ===
+
+Total de entidades únicas: 2,722
+Total de ocurrencias: 8,451
+Promedio de menciones por entidad: 3.10
+
+=== PATRONES DE LONGITUD DE ID ===
+IDs de 6 caracteres: 8,451
+
+=== ENTIDADES MÁS MENCIONADAS (TOP 20) ===
+ 1. ID: 3D4567 | United States (PLCE) | 76 menciones
+ 2. ID: B6F138 | World (PLCE) | 76 menciones
+ 3. ID: FE1757 | U.S. Dollar (CURR) | 66 menciones
+ 4. ID: E735C9 | Business (BUSI) | 65 menciones
+ 5. ID: 0BB42D | Information (CEPT) | 59 menciones
+ 6. ID: 913660 | Customer  (BUSI) | 50 menciones
+ 7. ID: F26C2F | Technology (TECH) | 40 menciones
+ 8. ID: 5442E4 | Industry (BUSI) | 37 menciones
+ 9. ID: D6119F | Event (EVNT) | 37 menciones
+10. ID: 58DAFA | Covid-19 (MDCO) | 36 menciones
+11. ID: 5E647F | Revenue (FINC) | 36 menciones
+12. ID: C3862D | Business Agreement (BUSI) | 35 menciones
+13. ID: CC71F7 | Data (TECH) | 35 menciones
+14. ID: 8180E0 | Challenge (CEPT) | 34 menciones
+15. ID: 170064 | Good (CEPT) | 34 menciones
+16. ID: 019AE1 | Expectation (EMOT) | 34 menciones
+17. ID: 8E3122 | Growth (CEPT) | 34 menciones
+18. ID: D60923 | Twitter (PROD) | 31 menciones
+19. ID: 23E2A4 | Cost (FINC) | 30 menciones
+20. ID: 5828FC | Community (SOCI) | 30 menciones
+
+=== DISTRIBUCIÓN POR TIPO DE ENTIDAD ===
+ANML: 28 entidades únicas
+ASTR: 11 entidades únicas
+BUSI: 182 entidades únicas
+CEPT: 174 entidades únicas
+CHAR: 2 entidades únicas
+CMDT: 24 entidades únicas
+COLR: 4 entidades únicas
+COMP: 309 entidades únicas
+CURR: 12 entidades únicas
+CURT: 1 entidades únicas
+ECON: 57 entidades únicas
+ELEM: 29 entidades únicas
+EMOT: 85 entidades únicas
+ETHN: 3 entidades únicas
+EVNT: 19 entidades únicas
+FCTY: 61 entidades únicas
+FINC: 276 entidades únicas
+FRTS: 3 entidades únicas
+INRT: 1 entidades únicas
+INSE: 3 entidades únicas
+LAND: 14 entidades únicas
+LAWS: 108 entidades únicas
+MDCO: 207 entidades únicas
+MSIC: 6 entidades únicas
+NATL: 36 entidades únicas
+ORGA: 128 entidades únicas
+ORGT: 51 entidades únicas
+PEOP: 126 entidades únicas
+PHYS: 14 entidades únicas
+PLCE: 214 entidades únicas
+PLNT: 6 entidades únicas
+PLTC: 27 entidades únicas
+PRDT: 93 entidades únicas
+PROD: 66 entidades únicas
+SCIE: 23 entidades únicas
+SCTY: 7 entidades únicas
+SECT: 30 entidades únicas
+SESO: 10 entidades únicas
+SHPE: 4 entidades únicas
+SOCI: 131 entidades únicas
+SPOR: 22 entidades únicas
+STAT: 7 entidades únicas
+SUST: 20 entidades únicas
+TEAM: 27 entidades únicas
+TECH: 46 entidades únicas
+VEGT: 3 entidades únicas
+WTHR: 12 entidades únicas
+
+=== EJEMPLOS DE IDs POR TIPO DE ENTIDAD ===
+
+ANML:
+  8E6424 -> Camel (XX)
+  65C176 -> Horse (XX)
+  C28355 -> Bird (XX)
+  5D4421 -> Tuna (XX)
+  A554D6 -> Dhole (XX)
+
+ASTR:
+  52D7FC -> Solar System (XX)
+  779E04 -> Universe (XX)
+  AE4BA4 -> Stellar Remnant (XX)
+  B87F7F -> Eclipse (XX)
+  C7146E -> Eris (XX)
+
+BUSI:
+  358673 -> Market Segment  (XX)
+  0BAB2F -> Limited Liability  (XX)
+  70A0CB -> Capacity Utilization (XX)
+  9C0E1C -> Inventory (XX)
+  8C3B18 -> Social Insurance (XX)
+
+CEPT:
+  6C86E5 -> Magic (XX)
+  1B6226 -> Workaholic (XX)
+  B4362F -> Gambling (XX)
+  759944 -> Sports Journalism (XX)
+  68C740 -> Problem (XX)
+
+CHAR:
+  B00652 -> SpongeBob SquarePants (XX)
+  F86773 -> Sherlock Holmes (XX)
+
+CMDT:
+  120B6A -> Rough Rice (XX)
+  F43264 -> Biofuel (XX)
+  D31AE8 -> Soybean Meal (XX)
+  F33A73 -> Iron Ore (XX)
+  966D95 -> Wheat (XX)
+
+COLR:
+  9A8787 -> Gold (XX)
+  FDFEE3 -> Color (XX)
+  FA13E9 -> Purple (XX)
+  626690 -> Pink (XX)
+
+COMP:
+  564C09 -> EDGAR Online Inc. (US)
+  2QK9FH -> TQS ASB LLC (US)
+  9C25FF -> Live Nation Entertainment Inc. (US)
+  D39589 -> Corus Entertainment Inc. (CA)
+  F94104 -> British Broadcasting Corp. (GB)
+
+CURR:
+  210530 -> Chinese Renminbi (CN)
+  DF632D -> British Pound (GB)
+  3E823F -> Euro (EU)
+  FE1757 -> U.S. Dollar (US)
+  F61AA5 -> Taiwan New Dollar (TW)
+
+CURT:
+  2BCD97 -> Cryptocurrency (XX)
+
+ECON:
+  7E7529 -> Production (XX)
+  EC492A -> Circular Economy (XX)
+  98CA2F -> Inflationary Pressure (XX)
+  D780DA -> Tourism (XX)
+  8DED3B -> Job Creation (XX)
+
+ELEM:
+  5208A9 -> Technetium (XX)
+  F25F31 -> Isotope (XX)
+  C61E59 -> Air (XX)
+  77665F -> Rubidium (XX)
+  0FA010 -> Ethylene (XX)
+
+EMOT:
+  6AF1B1 -> Hunger (XX)
+  FD9E49 -> Guilt (XX)
+  DE1D79 -> Defeat (XX)
+  0B8ACD -> Apathy (XX)
+  0D17B3 -> Shyness (XX)
+
+ETHN:
+  19C1F9 -> Arab (XX)
+  6DA55F -> Ethnicity (XX)
+  7763E9 -> Scandinavian  (XX)
+
+EVNT:
+  EC8DA6 -> Halloween (XX)
+  C3FB7C -> Vietnam War (VN)
+  4BEE62 -> Mother's Day (XX)
+  E64934 -> Party (XX)
+  55F204 -> Super Bowl (XX)
+
+FCTY:
+  F175DD -> Resort  (XX)
+  DC1A9F -> Shop (XX)
+  2FCB80 -> Cafe (XX)
+  1A77ED -> Landfill Site (XX)
+  E52E38 -> Advocate Lutheran General Hospital (US)
+
+FINC:
+  A506B2 -> Beneficial Owner (XX)
+  E74D95 -> Employee Cost (XX)
+  82BEBE -> Foreclosure (XX)
+  6B1972 -> Assets Under Management (XX)
+  ADDE47 -> Order Book (XX)
+
+FRTS:
+  080AAD -> Fruit (XX)
+  40492E -> Pineapple (XX)
+  B702B0 -> Tangerine (XX)
+
+INRT:
+  65E20D -> Floating Interest Rate  (XX)
+
+INSE:
+  5FC6C7 -> Bee (XX)
+  2725FF -> Insect (XX)
+  61F73A -> Honey Bee (XX)
+
+LAND:
+  770E34 -> Statue (XX)
+  FA533A -> Lake (XX)
+  AF7C34 -> Jungle (XX)
+  7EF547 -> Desert (XX)
+  026A63 -> Sculpture (XX)
+
+LAWS:
+  AD4A29 -> Class Action (XX)
+  19D3C9 -> Court Hearing (XX)
+  A888ED -> State of Emergency (XX)
+  FA4CD8 -> Accomplice (XX)
+  76563C -> Coercion (XX)
+
+MDCO:
+  A3390C -> Coronavirus (XX)
+  45D588 -> Hypothermia (XX)
+  AABBD4 -> Ligament (XX)
+  42E46F -> Cheek (XX)
+  C4B9B9 -> Drug Therapy (XX)
+
+MSIC:
+  4984A8 -> Music (XX)
+  73A912 -> Jazz (XX)
+  81B12B -> Country Music (XX)
+  BF3940 -> Chamber Music  (XX)
+  3AA9D0 -> String Quartet (XX)
+
+NATL:
+  F5D2D1 -> Norwegian (NO)
+  B2D562 -> Egyptian (EG)
+  76987B -> Ugandan (UG)
+  2F8B27 -> Canadian (CA)
+  DA8BC5 -> Greek (GR)
+
+ORGA:
+  FF7370 -> University of California (US)
+  205DCB -> Royal Canadian Mounted Police (CA)
+  98F8D2 -> Government of the Netherlands (NL)
+  6EDABE -> The U.S. Centers for Disease Control and Prevention (US)
+  BCB799 -> Government of Israel (IL)
+
+ORGT:
+  8BB8F7 -> School (XX)
+  6DC5C5 -> School District (XX)
+  DC29A1 -> Bureau (XX)
+  D8D7C6 -> Stock Index (XX)
+  3E47C4 -> Federal Republic (XX)
+
+PEOP:
+  HCHRH6 -> Benjamin Joseph Kallo (XX)
+  2RDVEX -> Leon Lerman (XX)
+  608RS8 -> Thomas Palmer (XX)
+  232650 -> Olaf Scholz (DE)
+  DRBA5S -> Ludovic Lastennet (XX)
+
+PHYS:
+  1838C7 -> Temperature (XX)
+  5E821E -> Sound (XX)
+  529A52 -> Nuclear Energy (XX)
+  E7205F -> Light (XX)
+  FB6674 -> Wave (XX)
+
+PLCE:
+  94B930 -> Melbourne, Australia (AU)
+  E2687D -> Uganda (UG)
+  5A0EDC -> Haarlem, NORTH HOLLAND, NL (NL)
+  B8662C -> Minsk, Belarus (BY)
+  2CD40F -> Saudi Arabia (SA)
+
+PLNT:
+  C25C2C -> Plant (XX)
+  B8B133 -> Sequoia (XX)
+  3EED34 -> Tree  (XX)
+  1E9136 -> Sugar Cane  (XX)
+  DC94F7 -> Pine  (XX)
+
+PLTC:
+  9950CB -> Right-Wing  (XX)
+  A95B66 -> Election Poll (XX)
+  1AE5E3 -> Left-Wing  (XX)
+  28D23B -> Foreign Policy (XX)
+  52EDDC -> Ballot  (XX)
+
+PRDT:
+  EC36FF -> Wine (XX)
+  76544E -> Brake (XX)
+  0EAE04 -> Security Service (XX)
+  B2B467 -> Podcast (XX)
+  4E44BF -> Keyboard (XX)
+
+PROD:
+  E79F54 -> Samsung Galaxy Tab S7 (KR)
+  55E8C4 -> Samsung Galaxy Tab (KR)
+  8F4A25 -> Fortnite (US)
+  4E7666 -> Google Play Store (US)
+  85E6A0 -> Ignite TV (CA)
+
+SCIE:
+  B6F637 -> Genetics (XX)
+  19ECF4 -> Economics (XX)
+  DF9DD2 -> Physics (XX)
+  956EEE -> Linguistics  (XX)
+  9F60D6 -> Psychology (XX)
+
+SCTY:
+  B87B88 -> Convertible Bond (XX)
+  F4F4E2 -> Futures (XX)
+  AE3C43 -> Common Share (XX)
+  3DBDBD -> Put Option (XX)
+  F8F861 -> Collateralized Loan (XX)
+
+SECT:
+  5C3ECD -> Technology (XX)
+  F7B4CB -> Retail (XX)
+  FAD66F -> Electronic Equipment (XX)
+  F43A4E -> Specialty Finance (XX)
+  2B6EF4 -> Industrial Engineering (XX)
+
+SESO:
+  385C0C -> Afternoon (XX)
+  2E6775 -> Morning (XX)
+  FA4EAA -> Summer (XX)
+  751AE6 -> Evening (XX)
+  E70613 -> Day (XX)
+
+SHPE:
+  7D1C42 -> Sphere (XX)
+  71775E -> Shape (XX)
+  5D824A -> Oval (XX)
+  9D6160 -> Square Shape (XX)
+
+SOCI:
+  F2D6C2 -> Generation (XX)
+  AAE214 -> Initiative (XX)
+  E56C58 -> Victim (XX)
+  122CC5 -> Lifestyle (XX)
+  3C12F4 -> Harassment (XX)
+
+SPOR:
+  D187DD -> American Football (XX)
+  3829B2 -> Basketball (XX)
+  87006B -> Workout (XX)
+  F5311C -> Golf (XX)
+  3E0F32 -> Soccer (XX)
+
+STAT:
+  54E27D -> Sampling (XX)
+  D017B9 -> Statistics (XX)
+  9A9D05 -> Consumer Price Index (XX)
+  8DAFE4 -> Census (XX)
+  DE497F -> Cohort (XX)
+
+SUST:
+  69352F -> e-Waste (XX)
+  D3C8F3 -> Renewable Energy (XX)
+  74124C -> Waste (XX)
+  10D4B5 -> Eco-friendly (XX)
+  FC0E77 -> Net Zero Emissions (XX)
+
+TEAM:
+  C204FE -> Green Bay Packers (US)
+  510052 -> FC Porto (PT)
+  DA5050 -> New Orleans Saints (US)
+  4AEADA -> Los Angeles Lakers (US)
+  46223C -> Buffalo Bills (US)
+
+TECH:
+  2A9830 -> Emerging Technology (XX)
+  5C0D31 -> Electrification (XX)
+  D5CF20 -> Software as a Service (XX)
+  DABB92 -> Digitization (XX)
+  C5CD8B -> Smart Contract (XX)
+
+VEGT:
+  B25BDE -> Potato (XX)
+  E31D51 -> Vegetable (XX)
+  A9F83C -> Sweet Potato (XX)
+
+WTHR:
+  FA9F59 -> Hurricane (XX)
+  0D7A7D -> Rain (XX)
+  039F7B -> Drought  (XX)
+  E0279E -> Lightning  (XX)
+  7D6C39 -> Chilly (XX)
+
+=== ANÁLISIS DE FORMATO HEXADECIMAL ===
+Caracteres hexadecimales encontrados: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+Confirma formato hexadecimal: False
+
+=== PATRONES INTERESANTES ===
+IDs que empiezan con número: 1649
+IDs que empiezan con letra: 1073

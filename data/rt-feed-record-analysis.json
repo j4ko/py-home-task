@@ -1,0 +1,1018 @@
+{
+  "resumen_general": {
+    "total_registros": 8451,
+    "total_campos": 82,
+    "fecha_analisis": "2025-09-30"
+  },
+  "estructura_de_campos": {
+    "TIMESTAMP_UTC": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "2022-02-09 17:04:25.403",
+        "2022-02-09 17:04:25.403",
+        "2022-02-09 17:04:25.403"
+      ]
+    },
+    "RP_DOCUMENT_ID": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "0B31D33076B73E35F140F4701F69168C",
+        "0B31D33076B73E35F140F4701F69168C",
+        "0B31D33076B73E35F140F4701F69168C"
+      ]
+    },
+    "RP_ENTITY_ID": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "55F204",
+        "697601",
+        "AF2DAC"
+      ]
+    },
+    "ENTITY_TYPE": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "EVNT",
+        "SPOR",
+        "PLCE"
+      ]
+    },
+    "ENTITY_NAME": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "Super Bowl",
+        "Sport",
+        "State of Indiana, US"
+      ]
+    },
+    "COUNTRY_CODE": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "XX",
+        "XX",
+        "US"
+      ]
+    },
+    "RP_PARENT_ID": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8336,
+      "porcentaje_nulos": 98.64,
+      "ejemplos_de_valores": [
+        "12E454",
+        "769F40",
+        "C1D3A6"
+      ]
+    },
+    "PARENT_NAME": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8336,
+      "porcentaje_nulos": 98.64,
+      "ejemplos_de_valores": [
+        "Meta Platforms Inc.",
+        "Tribune Publishing Co.",
+        "Beijing ByteDance Technology Co. Ltd."
+      ]
+    },
+    "ENTITY_HIERARCHY_LEVEL": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ENTITY_DETECTION_TYPE": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "direct",
+        "direct",
+        "direct"
+      ]
+    },
+    "ENTITY_DETECTION_DISTANCE": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ENTITY_RELEVANCE": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        84,
+        81,
+        81
+      ]
+    },
+    "ENTITY_SENTIMENT": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.27,
+        0.36,
+        0.36
+      ]
+    },
+    "ENTITY_SENTIMENT_CONFIDENCE": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.73,
+        0.87,
+        0.87
+      ]
+    },
+    "ENTITY_TEXT_SENTIMENT": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.27,
+        0.36,
+        0.36
+      ]
+    },
+    "ENTITY_TEXT_SENT_CONFIDENCE": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.73,
+        0.87,
+        0.87
+      ]
+    },
+    "TOPIC": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "business",
+        "business",
+        "economy"
+      ]
+    },
+    "GROUP": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "products-services",
+        "products-services",
+        "employment"
+      ]
+    },
+    "TYPE": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "product-discontinued",
+        "product-discontinued",
+        "unemployment"
+      ]
+    },
+    "SUB_TYPE": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8338,
+      "porcentaje_nulos": 98.66,
+      "ejemplos_de_valores": [
+        "negative",
+        "negative",
+        "negative"
+      ]
+    },
+    "ROLE": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8369,
+      "porcentaje_nulos": 99.03,
+      "ejemplos_de_valores": [
+        "product",
+        "rater",
+        "rater"
+      ]
+    },
+    "CATEGORY": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "product-discontinued-product",
+        "product-discontinued",
+        "unemployment"
+      ]
+    },
+    "UNIT": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8442,
+      "porcentaje_nulos": 99.89,
+      "ejemplos_de_valores": [
+        "subsidiary",
+        "subsidiary",
+        "subsidiary"
+      ]
+    },
+    "FACT_LEVEL": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "mention",
+        "mention",
+        "mention"
+      ]
+    },
+    "RP_POSITION_ID": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8443,
+      "porcentaje_nulos": 99.91,
+      "ejemplos_de_valores": [
+        "518E3D",
+        "2A6931",
+        "2A6931"
+      ]
+    },
+    "POSITION_NAME": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8443,
+      "porcentaje_nulos": 99.91,
+      "ejemplos_de_valores": [
+        "President",
+        "Executive",
+        "Executive"
+      ]
+    },
+    "EVALUATION_METHOD": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8445,
+      "porcentaje_nulos": 99.93,
+      "ejemplos_de_valores": [
+        "YOY",
+        "YOY",
+        "YOY"
+      ]
+    },
+    "MATURITY": {
+      "tipos_de_datos": [
+        "null"
+      ],
+      "valores_nulos": 8451,
+      "porcentaje_nulos": 100.0,
+      "ejemplos_de_valores": []
+    },
+    "REPORTING_TYPE": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8439,
+      "porcentaje_nulos": 99.86,
+      "ejemplos_de_valores": [
+        "reported",
+        "ex-exceptionals",
+        "ex-exceptionals"
+      ]
+    },
+    "RP_SEGMENT_ID": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8430,
+      "porcentaje_nulos": 99.75,
+      "ejemplos_de_valores": [
+        "8C49DD",
+        "8C49DD",
+        "8C49DD"
+      ]
+    },
+    "SEGMENT_NAME": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8430,
+      "porcentaje_nulos": 99.75,
+      "ejemplos_de_valores": [
+        "Pizza",
+        "Pizza",
+        "Pizza"
+      ]
+    },
+    "RP_TERRITORY_ID": {
+      "tipos_de_datos": [
+        "null"
+      ],
+      "valores_nulos": 8451,
+      "porcentaje_nulos": 100.0,
+      "ejemplos_de_valores": []
+    },
+    "TERRITORY_NAME": {
+      "tipos_de_datos": [
+        "null"
+      ],
+      "valores_nulos": 8451,
+      "porcentaje_nulos": 100.0,
+      "ejemplos_de_valores": []
+    },
+    "EVENT_START_DATE_UTC": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8412,
+      "porcentaje_nulos": 99.54,
+      "ejemplos_de_valores": [
+        "2021-11-01 00:00:00",
+        "2022-02-08 00:00:00",
+        "2022-04-01 00:00:00"
+      ]
+    },
+    "EVENT_END_DATE_UTC": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8412,
+      "porcentaje_nulos": 99.54,
+      "ejemplos_de_valores": [
+        "2021-12-01 00:00:00",
+        "2022-02-09 00:00:00",
+        "2022-05-01 00:00:00"
+      ]
+    },
+    "REPORTING_PERIOD": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8378,
+      "porcentaje_nulos": 99.14,
+      "ejemplos_de_valores": [
+        "2021",
+        "2023",
+        "2023"
+      ]
+    },
+    "REPORTING_START_DATE_UTC": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8362,
+      "porcentaje_nulos": 98.95,
+      "ejemplos_de_valores": [
+        "2021-11-01 00:00:00",
+        "2021-01-01 00:00:00",
+        "2023-01-01 00:00:00"
+      ]
+    },
+    "REPORTING_END_DATE_UTC": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8362,
+      "porcentaje_nulos": 98.95,
+      "ejemplos_de_valores": [
+        "2022-02-01 00:00:00",
+        "2022-01-01 00:00:00",
+        "2024-01-01 00:00:00"
+      ]
+    },
+    "RP_RELATED_ENTITY_ID": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8428,
+      "porcentaje_nulos": 99.73,
+      "ejemplos_de_valores": [
+        "2F901D",
+        "E2687D",
+        "B811D5"
+      ]
+    },
+    "RELATED_ENTITY_NAME": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8428,
+      "porcentaje_nulos": 99.73,
+      "ejemplos_de_valores": [
+        "State of Minnesota, US",
+        "Uganda",
+        "Samsung Electronics Co. Ltd."
+      ]
+    },
+    "RELATIONSHIP": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8428,
+      "porcentaje_nulos": 99.73,
+      "ejemplos_de_valores": [
+        "TERRITORY",
+        "TERRITORY",
+        "OWNER"
+      ]
+    },
+    "EVENT_RELEVANCE": {
+      "tipos_de_datos": [
+        "null",
+        "int"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        70,
+        70,
+        40
+      ]
+    },
+    "EVENT_SENTIMENT": {
+      "tipos_de_datos": [
+        "null",
+        "float"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        -0.41,
+        -0.41,
+        0.0
+      ]
+    },
+    "EVENT_RISK": {
+      "tipos_de_datos": [
+        "null",
+        "float"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        0.51,
+        0.51,
+        0.0
+      ]
+    },
+    "SUSTAINABILITY_SENTIMENT": {
+      "tipos_de_datos": [
+        "null",
+        "float"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        -0.17,
+        -0.17,
+        0.0
+      ]
+    },
+    "CREDIT_SENTIMENT": {
+      "tipos_de_datos": [
+        "null",
+        "float"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        0.0,
+        -0.35,
+        0.0
+      ]
+    },
+    "INTEREST_RATE_SENTIMENT": {
+      "tipos_de_datos": [
+        "null",
+        "float"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "EVENT_DETECTION_DISTANCE": {
+      "tipos_de_datos": [
+        "null",
+        "int"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "RP_EVENT_DETECTED_ENTITY_ID": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8150,
+      "porcentaje_nulos": 96.44,
+      "ejemplos_de_valores": [
+        "8C49DD",
+        "A00D28",
+        "78D638"
+      ]
+    },
+    "EVENT_DETECTED_ENTITY_NAME": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8150,
+      "porcentaje_nulos": 96.44,
+      "ejemplos_de_valores": [
+        "Pizza",
+        "MyPizza Technologies Inc.",
+        "State of New Jersey, US"
+      ]
+    },
+    "EVENT_SIMILARITY_KEY": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "AC72988479A6CCE74A2090767B04DE44",
+        "AC72988479A6CCE74A2090767B04DE44",
+        "00688537BFA3EFA585AAE785415F4D91"
+      ]
+    },
+    "EVENT_SIMILARITY_DAYS": {
+      "tipos_de_datos": [
+        "null",
+        "float"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        0.00059,
+        0.00059,
+        0.00013
+      ]
+    },
+    "EVENT_TEXT": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 8149,
+      "porcentaje_nulos": 96.43,
+      "ejemplos_de_valores": [
+        "Slice, a digital platform that powers America's largest network of pizzerias, has dropped its annual pizza",
+        "Slice, a digital platform that powers America's largest network of pizzerias, has dropped its annual pizza",
+        "Months for unemployment help as states such as New Jersey"
+      ]
+    },
+    "DOCUMENT_TYPE": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "FULL-ARTICLE",
+        "FULL-ARTICLE",
+        "FULL-ARTICLE"
+      ]
+    },
+    "ORIGINAL_LANGUAGE": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "ENGLISH",
+        "ENGLISH",
+        "ENGLISH"
+      ]
+    },
+    "TITLE": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "Burrow equals passing of the torch",
+        "Burrow equals passing of the torch",
+        "Burrow equals passing of the torch"
+      ]
+    },
+    "TITLE_SIMILARITY_KEY": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "5E2779179C6EA384CB77D7B78D933ACF",
+        "5E2779179C6EA384CB77D7B78D933ACF",
+        "5E2779179C6EA384CB77D7B78D933ACF"
+      ]
+    },
+    "TITLE_SIMILARITY_DAYS": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        365.0,
+        365.0,
+        365.0
+      ]
+    },
+    "DOCUMENT_SENTIMENT": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.14,
+        0.14,
+        0.14
+      ]
+    },
+    "DOCUMENT_SENTIMENT_CONFIDENCE": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.43,
+        0.43,
+        0.43
+      ]
+    },
+    "COMPOSITE_SENTIMENT_SCORE": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "SENTIMENT_IMPACT_PROJECTION": {
+      "tipos_de_datos": [
+        "float"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        -0.2,
+        -0.2,
+        -0.2
+      ]
+    },
+    "STOCK_TONE_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "EARNINGS_TONE_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "COMMENTARY_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "MERGERS_ACQUISITIONS_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "CORPORATE_ACTIONS_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "EARNINGS_RELEASE_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ANALYST_RATINGS_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "MULTI_STOCK_SENTIMENT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        0,
+        0,
+        0
+      ]
+    },
+    "PARAGRAPH_COUNT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        28,
+        28,
+        28
+      ]
+    },
+    "WORD_COUNT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        779,
+        779,
+        779
+      ]
+    },
+    "BYTE_COUNT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        8937,
+        8937,
+        8937
+      ]
+    },
+    "RP_SOURCE_ID": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "2D6E8F",
+        "2D6E8F",
+        "2D6E8F"
+      ]
+    },
+    "SOURCE_NAME": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "North Andover Eagle-Tribune",
+        "North Andover Eagle-Tribune",
+        "North Andover Eagle-Tribune"
+      ]
+    },
+    "SOURCE_RANK": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        4,
+        4,
+        4
+      ]
+    },
+    "RP_PROVIDER_ID": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "MRVR",
+        "MRVR",
+        "MRVR"
+      ]
+    },
+    "PROVIDER_DOCUMENT_ID": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "10:46987517075",
+        "10:46987517075",
+        "10:46987517075"
+      ]
+    },
+    "PROVIDER_DOCUMENT_CHAIN_ID": {
+      "tipos_de_datos": [
+        "null",
+        "str"
+      ],
+      "valores_nulos": 5488,
+      "porcentaje_nulos": 64.94,
+      "ejemplos_de_valores": [
+        "KRTSR00020220209ei29000p1",
+        "KRTSR00020220209ei29000p1",
+        "KRTSR00020220209ei29000p1"
+      ]
+    },
+    "DOCUMENT_RECORD_INDEX": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        1,
+        2,
+        3
+      ]
+    },
+    "DOCUMENT_RECORD_COUNT": {
+      "tipos_de_datos": [
+        "int"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        38,
+        38,
+        38
+      ]
+    },
+    "PRODUCT_KEY": {
+      "tipos_de_datos": [
+        "str"
+      ],
+      "valores_nulos": 0,
+      "porcentaje_nulos": 0.0,
+      "ejemplos_de_valores": [
+        "EDGE",
+        "EDGE",
+        "EDGE"
+      ]
+    }
+  }
+}
